@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Proof" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/flour</item>
+    </style>
+</resources>

@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: proof-api
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/proof}
+    username: ${DATABASE_USER:proof}
+    password: ${DATABASE_PASSWORD:proof}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+
+proof:
+  jwt:
+    # Override in every real environment: PROOF_JWT_SECRET must be at least 32 bytes.
+    secret: ${PROOF_JWT_SECRET:dev-only-secret-change-me-please-32-bytes!!}
+    ttl: ${PROOF_JWT_TTL:P30D}
+  seed:
+    enabled: ${PROOF_SEED:true}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

@@ -1,0 +1,34 @@
+# One command to run the whole backend locally:  docker compose up --build
+# API:     http://localhost:8080
+# Swagger: http://localhost:8080/swagger-ui.html
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: proof
+      POSTGRES_USER: proof
+      POSTGRES_PASSWORD: proof
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U proof -d proof"]
+      interval: 5s
+      retries: 10
+
+  api:
+    build: ./backend
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: jdbc:postgresql://db:5432/proof
+      DATABASE_USER: proof
+      DATABASE_PASSWORD: proof
+      PROOF_JWT_SECRET: ${PROOF_JWT_SECRET:-local-docker-secret-change-me-32-bytes!!}
+    ports:
+      - "8080:8080"
+
+volumes:
+  pgdata:

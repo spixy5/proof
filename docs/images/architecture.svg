@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9A4A1E"/>
+    </marker>
+    <marker id="arrowSage" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4E6A4B"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#3A1400" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="640" fill="#FFF8F2"/>
+
+  <!-- Title -->
+  <text x="48" y="64" font-size="30" font-weight="700" fill="#221A15" font-family="Georgia, serif">Proof · Architecture</text>
+  <text x="48" y="94" font-size="16" fill="#52443C">Offline-first Android client (MVVM + repository) talking to a stateless Spring Boot API</text>
+
+  <!-- Android panel -->
+  <rect x="40" y="124" width="660" height="480" rx="28" fill="#FBEBE1" stroke="#D7C2B8"/>
+  <text x="68" y="162" font-size="18" font-weight="700" fill="#9A4A1E">ANDROID · Kotlin + Jetpack Compose</text>
+
+  <!-- UI -->
+  <g filter="url(#shadow)">
+    <rect x="68" y="186" width="190" height="84" rx="18" fill="#FFFFFF"/>
+    <rect x="68" y="296" width="190" height="84" rx="18" fill="#FFFFFF"/>
+    <rect x="300" y="296" width="190" height="84" rx="18" fill="#FFFFFF"/>
+    <rect x="300" y="186" width="190" height="84" rx="18" fill="#FFE08A"/>
+    <rect x="68" y="420" width="130" height="84" rx="18" fill="#FFFFFF"/>
+    <rect x="214" y="420" width="130" height="84" rx="18" fill="#FFFFFF"/>
+    <rect x="360" y="420" width="130" height="84" rx="18" fill="#FFFFFF"/>
+    <rect x="524" y="296" width="150" height="84" rx="18" fill="#CFEAC9"/>
+  </g>
+
+  <text x="163" y="222" text-anchor="middle" font-size="17" font-weight="700" fill="#221A15">Compose UI</text>
+  <text x="163" y="246" text-anchor="middle" font-size="13" fill="#52443C">Material 3 · Navigation</text>
+
+  <text x="163" y="332" text-anchor="middle" font-size="17" font-weight="700" fill="#221A15">ViewModels</text>
+  <text x="163" y="356" text-anchor="middle" font-size="13" fill="#52443C">StateFlow&lt;UiState&gt;</text>
+
+  <text x="395" y="222" text-anchor="middle" font-size="17" font-weight="700" fill="#261A00">RecipeScaler</text>
+  <text x="395" y="246" text-anchor="middle" font-size="13" fill="#5C4200">pure Kotlin · unit tested</text>
+
+  <text x="395" y="332" text-anchor="middle" font-size="17" font-weight="700" fill="#221A15">Repositories</text>
+  <text x="395" y="356" text-anchor="middle" font-size="13" fill="#52443C">single source of truth</text>
+
+  <text x="133" y="456" text-anchor="middle" font-size="16" font-weight="700" fill="#221A15">Room</text>
+  <text x="133" y="480" text-anchor="middle" font-size="12" fill="#52443C">recipes · favs · list</text>
+
+  <text x="279" y="456" text-anchor="middle" font-size="16" font-weight="700" fill="#221A15">DataStore</text>
+  <text x="279" y="480" text-anchor="middle" font-size="12" fill="#52443C">JWT · theme</text>
+
+  <text x="425" y="456" text-anchor="middle" font-size="16" font-weight="700" fill="#221A15">Retrofit</text>
+  <text x="425" y="480" text-anchor="middle" font-size="12" fill="#52443C">OkHttp · JWT header</text>
+
+  <text x="599" y="332" text-anchor="middle" font-size="16" font-weight="700" fill="#0B200C">SyncWorker</text>
+  <text x="599" y="356" text-anchor="middle" font-size="12" fill="#364C34">WorkManager · retry</text>
+
+  <!-- Android arrows -->
+  <line x1="163" y1="270" x2="163" y2="294" stroke="#9A4A1E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="258" y1="320" x2="298" y2="320" stroke="#9A4A1E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="240" y1="296" x2="300" y2="262" stroke="#9A4A1E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="350" y1="380" x2="160" y2="418" stroke="#9A4A1E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="370" y1="380" x2="290" y2="418" stroke="#9A4A1E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="420" y1="380" x2="425" y2="418" stroke="#9A4A1E" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="524" y1="338" x2="492" y2="338" stroke="#4E6A4B" stroke-width="2.5" marker-end="url(#arrowSage)"/>
+  <!-- Room flow back to UI -->
+  <path d="M68,462 C40,462 44,228 66,228" fill="none" stroke="#4E6A4B" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#arrowSage)"/>
+  <text x="52" y="560" font-size="13" fill="#364C34">- - -  Flow: Room changes stream straight to the UI</text>
+
+  <!-- Network arrow -->
+  <line x1="490" y1="462" x2="790" y2="300" stroke="#9A4A1E" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="592" y="372" width="118" height="30" rx="15" fill="#9A4A1E"/>
+  <text x="651" y="392" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">HTTPS · JSON</text>
+
+  <!-- Backend panel -->
+  <rect x="740" y="124" width="420" height="480" rx="28" fill="#1A120E"/>
+  <text x="768" y="162" font-size="18" font-weight="700" fill="#FFB68F">BACKEND · Spring Boot 4 · Java 21</text>
+
+  <g>
+    <rect x="790" y="186" width="320" height="64" rx="16" fill="#322823"/>
+    <rect x="790" y="270" width="320" height="64" rx="16" fill="#322823"/>
+    <rect x="790" y="354" width="320" height="64" rx="16" fill="#322823"/>
+    <rect x="790" y="438" width="320" height="64" rx="16" fill="#783512"/>
+  </g>
+  <text x="950" y="214" text-anchor="middle" font-size="16" font-weight="700" fill="#F0DFD7">Spring Security</text>
+  <text x="950" y="236" text-anchor="middle" font-size="12" fill="#D7C2B8">OAuth2 resource server · HS256 JWT · BCrypt</text>
+  <text x="950" y="298" text-anchor="middle" font-size="16" font-weight="700" fill="#F0DFD7">REST controllers</text>
+  <text x="950" y="320" text-anchor="middle" font-size="12" fill="#D7C2B8">/auth · /recipes · /me/favorites · validation</text>
+  <text x="950" y="382" text-anchor="middle" font-size="16" font-weight="700" fill="#F0DFD7">Spring Data JPA</text>
+  <text x="950" y="404" text-anchor="middle" font-size="12" fill="#D7C2B8">Hibernate · element collections</text>
+  <text x="950" y="466" text-anchor="middle" font-size="16" font-weight="700" fill="#FFDBC9">PostgreSQL 17</text>
+  <text x="950" y="488" text-anchor="middle" font-size="12" fill="#FFDBC9">Flyway migrations · seed data</text>
+
+  <line x1="950" y1="250" x2="950" y2="268" stroke="#FFB68F" stroke-width="2.5"/>
+  <line x1="950" y1="334" x2="950" y2="352" stroke="#FFB68F" stroke-width="2.5"/>
+  <line x1="950" y1="418" x2="950" y2="436" stroke="#FFB68F" stroke-width="2.5"/>
+
+  <rect x="790" y="526" width="152" height="44" rx="22" fill="#5C4200"/>
+  <text x="866" y="553" text-anchor="middle" font-size="13" font-weight="700" fill="#FFE08A">Swagger / OpenAPI</text>
+  <rect x="958" y="526" width="152" height="44" rx="22" fill="#364C34"/>
+  <text x="1034" y="553" text-anchor="middle" font-size="13" font-weight="700" fill="#CFEAC9">Docker Compose</text>
+</svg>

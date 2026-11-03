@@ -1,0 +1,300 @@
+[
+  {
+    "id": "country-sourdough",
+    "title": "Country Sourdough",
+    "description": "An open, glossy crumb and a crackling crust. A 75% hydration loaf with a touch of wholemeal for flavour.",
+    "category": "BREAD",
+    "emoji": "🍞",
+    "servings": 2,
+    "yieldUnit": "loaves",
+    "prepMinutes": 60,
+    "cookMinutes": 45,
+    "difficulty": "HARD",
+    "ingredients": [
+      { "name": "Bread flour", "amount": 900, "unit": "GRAM", "flour": true },
+      { "name": "Wholemeal flour", "amount": 100, "unit": "GRAM", "flour": true },
+      { "name": "Water", "amount": 750, "unit": "MILLILITRE", "note": "at 28 °C" },
+      { "name": "Active sourdough starter", "amount": 200, "unit": "GRAM", "note": "100% hydration" },
+      { "name": "Fine sea salt", "amount": 20, "unit": "GRAM" }
+    ],
+    "steps": [
+      { "instruction": "Mix both flours with 700 ml of the water until no dry bits remain. Cover and rest (autolyse).", "timerSeconds": 2700 },
+      { "instruction": "Add the starter, salt and remaining water. Squeeze and fold until the dough feels smooth and strong." },
+      { "instruction": "Bulk ferment, doing a set of stretch and folds every 30 minutes for the first 2 hours.", "timerSeconds": 14400 },
+      { "instruction": "Divide in two, pre-shape into loose rounds and bench rest.", "timerSeconds": 1200 },
+      { "instruction": "Final shape, place seam-side up in floured bannetons, cover and refrigerate overnight." },
+      { "instruction": "Preheat the oven to 250 °C with a Dutch oven inside.", "timerSeconds": 2700 },
+      { "instruction": "Score and bake covered.", "timerSeconds": 1200 },
+      { "instruction": "Uncover, drop to 230 °C and bake until deeply golden.", "timerSeconds": 1500 },
+      { "instruction": "Cool on a rack for at least an hour before slicing. The crumb is still setting.", "timerSeconds": 3600 }
+    ]
+  },
+  {
+    "id": "brown-butter-cookies",
+    "title": "Brown Butter Chocolate Chip Cookies",
+    "description": "Nutty brown butter, dark chocolate pools and flaky salt. Crisp edges, chewy middles.",
+    "category": "COOKIES",
+    "emoji": "🍪",
+    "servings": 16,
+    "yieldUnit": "cookies",
+    "prepMinutes": 25,
+    "cookMinutes": 11,
+    "difficulty": "EASY",
+    "ingredients": [
+      { "name": "Unsalted butter", "amount": 225, "unit": "GRAM" },
+      { "name": "Light brown sugar", "amount": 200, "unit": "GRAM" },
+      { "name": "Caster sugar", "amount": 100, "unit": "GRAM" },
+      { "name": "Eggs", "amount": 2, "unit": "PIECE", "note": "large, room temperature" },
+      { "name": "Vanilla extract", "amount": 2, "unit": "TEASPOON" },
+      { "name": "Plain flour", "amount": 280, "unit": "GRAM", "flour": true },
+      { "name": "Bicarbonate of soda", "amount": 1, "unit": "TEASPOON" },
+      { "name": "Fine salt", "amount": 1, "unit": "TEASPOON" },
+      { "name": "Dark chocolate", "amount": 250, "unit": "GRAM", "note": "70%, roughly chopped" },
+      { "name": "Flaky sea salt", "amount": 1, "unit": "PINCH" }
+    ],
+    "steps": [
+      { "instruction": "Brown the butter in a light pan over medium heat, swirling, until it smells nutty and the solids turn amber.", "timerSeconds": 480 },
+      { "instruction": "Pour into a bowl and cool until warm, not hot.", "timerSeconds": 900 },
+      { "instruction": "Whisk in both sugars, then the eggs and vanilla until glossy." },
+      { "instruction": "Fold in the flour, bicarb and salt, then the chocolate." },
+      { "instruction": "Chill the dough so the cookies don't spread too far.", "timerSeconds": 1800 },
+      { "instruction": "Scoop 16 balls onto lined trays and bake at 180 °C.", "timerSeconds": 660 },
+      { "instruction": "Sprinkle with flaky salt and leave on the tray to firm up.", "timerSeconds": 600 }
+    ]
+  },
+  {
+    "id": "butter-croissants",
+    "title": "Classic Butter Croissants",
+    "description": "A weekend project worth every fold. Three single turns for honeycomb layers.",
+    "category": "PASTRY",
+    "emoji": "🥐",
+    "servings": 12,
+    "yieldUnit": "croissants",
+    "prepMinutes": 180,
+    "cookMinutes": 18,
+    "difficulty": "HARD",
+    "ingredients": [
+      { "name": "Strong white flour", "amount": 500, "unit": "GRAM", "flour": true },
+      { "name": "Cold water", "amount": 140, "unit": "MILLILITRE" },
+      { "name": "Cold whole milk", "amount": 140, "unit": "MILLILITRE" },
+      { "name": "Caster sugar", "amount": 55, "unit": "GRAM" },
+      { "name": "Instant yeast", "amount": 7, "unit": "GRAM" },
+      { "name": "Fine salt", "amount": 10, "unit": "GRAM" },
+      { "name": "Unsalted butter, for the dough", "amount": 40, "unit": "GRAM", "note": "softened" },
+      { "name": "Unsalted butter, for laminating", "amount": 280, "unit": "GRAM", "note": "cold, 82% fat" },
+      { "name": "Egg, for washing", "amount": 1, "unit": "PIECE" }
+    ],
+    "steps": [
+      { "instruction": "Mix the flour, liquids, sugar, yeast, salt and soft butter into a smooth dough. Flatten, wrap and chill overnight." },
+      { "instruction": "Pound the laminating butter into a 17 cm square and chill until pliable but cold.", "timerSeconds": 1200 },
+      { "instruction": "Lock the butter into the dough and give it the first single fold. Chill.", "timerSeconds": 1800 },
+      { "instruction": "Second single fold. Chill.", "timerSeconds": 1800 },
+      { "instruction": "Third single fold. Chill.", "timerSeconds": 3600 },
+      { "instruction": "Roll to 4 mm, cut long triangles and roll them up tightly." },
+      { "instruction": "Proof somewhere warm (not above 26 °C) until wobbly and doubled.", "timerSeconds": 7200 },
+      { "instruction": "Egg wash and bake at 190 °C until deep golden.", "timerSeconds": 1080 }
+    ]
+  },
+  {
+    "id": "lemon-drizzle",
+    "title": "Lemon Drizzle Loaf",
+    "description": "A tender, buttery sponge soaked in sharp lemon syrup with a crunchy sugar crust.",
+    "category": "CAKES",
+    "emoji": "🍋",
+    "servings": 8,
+    "yieldUnit": "slices",
+    "prepMinutes": 20,
+    "cookMinutes": 45,
+    "difficulty": "EASY",
+    "ingredients": [
+      { "name": "Unsalted butter", "amount": 175, "unit": "GRAM", "note": "softened" },
+      { "name": "Caster sugar", "amount": 175, "unit": "GRAM" },
+      { "name": "Eggs", "amount": 3, "unit": "PIECE" },
+      { "name": "Self-raising flour", "amount": 175, "unit": "GRAM", "flour": true },
+      { "name": "Whole milk", "amount": 2, "unit": "TABLESPOON" },
+      { "name": "Lemons, zested and juiced", "amount": 2, "unit": "PIECE" },
+      { "name": "Granulated sugar, for the drizzle", "amount": 100, "unit": "GRAM" }
+    ],
+    "steps": [
+      { "instruction": "Heat the oven to 180 °C and line a 900 g loaf tin." },
+      { "instruction": "Beat the butter and caster sugar until pale and fluffy.", "timerSeconds": 240 },
+      { "instruction": "Beat in the eggs one at a time, then fold in the flour, milk and lemon zest." },
+      { "instruction": "Bake until a skewer comes out clean.", "timerSeconds": 2700 },
+      { "instruction": "Mix the lemon juice with the granulated sugar. Prick the warm cake all over and pour the drizzle on." },
+      { "instruction": "Cool completely in the tin so the syrup soaks in.", "timerSeconds": 1800 }
+    ]
+  },
+  {
+    "id": "neapolitan-pizza-dough",
+    "title": "Neapolitan Pizza Dough",
+    "description": "A slow, cold-fermented dough with leopard-spotted, airy cornicione. Just four ingredients.",
+    "category": "BREAD",
+    "emoji": "🍕",
+    "servings": 4,
+    "yieldUnit": "pizzas",
+    "prepMinutes": 20,
+    "cookMinutes": 2,
+    "difficulty": "MEDIUM",
+    "ingredients": [
+      { "name": "Tipo 00 flour", "amount": 600, "unit": "GRAM", "flour": true },
+      { "name": "Water", "amount": 390, "unit": "MILLILITRE", "note": "cold" },
+      { "name": "Fine sea salt", "amount": 18, "unit": "GRAM" },
+      { "name": "Instant yeast", "amount": 1.5, "unit": "GRAM" }
+    ],
+    "steps": [
+      { "instruction": "Dissolve the salt in the water, add the flour and yeast and mix to a shaggy dough." },
+      { "instruction": "Rest, then knead until smooth and elastic.", "timerSeconds": 900 },
+      { "instruction": "Cover and leave at room temperature.", "timerSeconds": 7200 },
+      { "instruction": "Divide into 4 balls of about 250 g, place in a covered tray and refrigerate for 24 to 48 hours." },
+      { "instruction": "Take the balls out of the fridge before baking so they relax.", "timerSeconds": 7200 },
+      { "instruction": "Stretch by hand, top, and bake in the hottest oven you have.", "timerSeconds": 90 }
+    ]
+  },
+  {
+    "id": "vanilla-cupcakes",
+    "title": "Vanilla Bean Cupcakes",
+    "description": "Light, moist sponges crowned with a silky vanilla buttercream swirl.",
+    "category": "CAKES",
+    "emoji": "🧁",
+    "servings": 12,
+    "yieldUnit": "cupcakes",
+    "prepMinutes": 30,
+    "cookMinutes": 20,
+    "difficulty": "EASY",
+    "ingredients": [
+      { "name": "Plain flour", "amount": 190, "unit": "GRAM", "flour": true },
+      { "name": "Caster sugar", "amount": 200, "unit": "GRAM" },
+      { "name": "Baking powder", "amount": 2, "unit": "TEASPOON" },
+      { "name": "Fine salt", "amount": 0.5, "unit": "TEASPOON" },
+      { "name": "Unsalted butter", "amount": 115, "unit": "GRAM", "note": "softened" },
+      { "name": "Eggs", "amount": 2, "unit": "PIECE" },
+      { "name": "Whole milk", "amount": 120, "unit": "MILLILITRE" },
+      { "name": "Vanilla bean paste", "amount": 2, "unit": "TEASPOON" },
+      { "name": "Icing sugar", "amount": 400, "unit": "GRAM" },
+      { "name": "Unsalted butter, for buttercream", "amount": 200, "unit": "GRAM" }
+    ],
+    "steps": [
+      { "instruction": "Heat the oven to 175 °C and line a 12-hole muffin tin." },
+      { "instruction": "Rub the soft butter into the flour, sugar, baking powder and salt until sandy." },
+      { "instruction": "Whisk the eggs, milk and half the vanilla, then beat into the dry mix until just smooth." },
+      { "instruction": "Fill the cases two-thirds full and bake.", "timerSeconds": 1200 },
+      { "instruction": "Cool completely before icing.", "timerSeconds": 2400 },
+      { "instruction": "Beat the buttercream butter until pale, add the icing sugar and remaining vanilla, and whip.", "timerSeconds": 300 },
+      { "instruction": "Pipe generous swirls on top." }
+    ]
+  },
+  {
+    "id": "fudgy-brownies",
+    "title": "Fudgy Brownies",
+    "description": "That crackly, paper-thin top over a dense, almost molten middle.",
+    "category": "DESSERTS",
+    "emoji": "🍫",
+    "servings": 16,
+    "yieldUnit": "squares",
+    "prepMinutes": 20,
+    "cookMinutes": 25,
+    "difficulty": "EASY",
+    "ingredients": [
+      { "name": "Dark chocolate", "amount": 200, "unit": "GRAM" },
+      { "name": "Unsalted butter", "amount": 175, "unit": "GRAM" },
+      { "name": "Caster sugar", "amount": 275, "unit": "GRAM" },
+      { "name": "Eggs", "amount": 3, "unit": "PIECE" },
+      { "name": "Plain flour", "amount": 85, "unit": "GRAM", "flour": true },
+      { "name": "Cocoa powder", "amount": 40, "unit": "GRAM" },
+      { "name": "Fine salt", "amount": 1, "unit": "PINCH" }
+    ],
+    "steps": [
+      { "instruction": "Heat the oven to 180 °C and line a 20 cm square tin." },
+      { "instruction": "Melt the chocolate and butter together over a pan of barely simmering water." },
+      { "instruction": "Whisk the eggs and sugar on high until thick and doubled. This makes the crackly top.", "timerSeconds": 300 },
+      { "instruction": "Fold in the chocolate, then sift over the flour, cocoa and salt and fold gently." },
+      { "instruction": "Bake until the centre just stops wobbling.", "timerSeconds": 1500 },
+      { "instruction": "Cool fully in the tin before cutting into 16.", "timerSeconds": 3600 }
+    ]
+  },
+  {
+    "id": "banana-bread",
+    "title": "Brown Sugar Banana Bread",
+    "description": "The best use for spotty bananas. Moist, caramelly and endlessly snackable.",
+    "category": "CAKES",
+    "emoji": "🍌",
+    "servings": 10,
+    "yieldUnit": "slices",
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "difficulty": "EASY",
+    "ingredients": [
+      { "name": "Very ripe bananas", "amount": 3, "unit": "PIECE" },
+      { "name": "Unsalted butter, melted", "amount": 115, "unit": "GRAM" },
+      { "name": "Dark brown sugar", "amount": 150, "unit": "GRAM" },
+      { "name": "Eggs", "amount": 2, "unit": "PIECE" },
+      { "name": "Plain flour", "amount": 250, "unit": "GRAM", "flour": true },
+      { "name": "Bicarbonate of soda", "amount": 1, "unit": "TEASPOON" },
+      { "name": "Ground cinnamon", "amount": 1, "unit": "TEASPOON" },
+      { "name": "Walnuts, chopped", "amount": 80, "unit": "GRAM" }
+    ],
+    "steps": [
+      { "instruction": "Heat the oven to 170 °C and line a 900 g loaf tin." },
+      { "instruction": "Mash the bananas, then whisk in the melted butter, sugar and eggs." },
+      { "instruction": "Fold in the flour, bicarb, cinnamon and walnuts until just combined." },
+      { "instruction": "Bake until risen and a skewer comes out clean.", "timerSeconds": 3600 },
+      { "instruction": "Cool in the tin, then turn out.", "timerSeconds": 900 }
+    ]
+  },
+  {
+    "id": "fluffy-pancakes",
+    "title": "Fluffy Buttermilk Pancakes",
+    "description": "Tall, tender stacks for slow Sunday mornings.",
+    "category": "BREAKFAST",
+    "emoji": "🥞",
+    "servings": 4,
+    "yieldUnit": "servings",
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "difficulty": "EASY",
+    "ingredients": [
+      { "name": "Plain flour", "amount": 250, "unit": "GRAM", "flour": true },
+      { "name": "Caster sugar", "amount": 2, "unit": "TABLESPOON" },
+      { "name": "Baking powder", "amount": 2, "unit": "TEASPOON" },
+      { "name": "Bicarbonate of soda", "amount": 0.5, "unit": "TEASPOON" },
+      { "name": "Fine salt", "amount": 1, "unit": "PINCH" },
+      { "name": "Buttermilk", "amount": 450, "unit": "MILLILITRE" },
+      { "name": "Eggs", "amount": 2, "unit": "PIECE" },
+      { "name": "Unsalted butter, melted", "amount": 40, "unit": "GRAM" }
+    ],
+    "steps": [
+      { "instruction": "Whisk the dry ingredients in one bowl and the buttermilk, eggs and butter in another." },
+      { "instruction": "Combine with a few strokes. Lumps are good. Let the batter rest.", "timerSeconds": 600 },
+      { "instruction": "Ladle onto a buttered pan over medium-low heat. Flip when bubbles pop on the surface.", "timerSeconds": 150 },
+      { "instruction": "Cook the second side until golden.", "timerSeconds": 90 }
+    ]
+  },
+  {
+    "id": "apple-crumble",
+    "title": "Spiced Apple Crumble",
+    "description": "Jammy cinnamon apples under a crisp, oaty, buttery crumble.",
+    "category": "DESSERTS",
+    "emoji": "🍎",
+    "servings": 6,
+    "yieldUnit": "servings",
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "difficulty": "EASY",
+    "ingredients": [
+      { "name": "Bramley apples, peeled and chopped", "amount": 1, "unit": "KILOGRAM" },
+      { "name": "Light brown sugar, for the apples", "amount": 60, "unit": "GRAM" },
+      { "name": "Ground cinnamon", "amount": 1, "unit": "TEASPOON" },
+      { "name": "Plain flour", "amount": 150, "unit": "GRAM", "flour": true },
+      { "name": "Rolled oats", "amount": 50, "unit": "GRAM" },
+      { "name": "Demerara sugar", "amount": 100, "unit": "GRAM" },
+      { "name": "Cold unsalted butter, cubed", "amount": 120, "unit": "GRAM" }
+    ],
+    "steps": [
+      { "instruction": "Heat the oven to 190 °C." },
+      { "instruction": "Toss the apples with the brown sugar and cinnamon, then soften in a covered pan.", "timerSeconds": 480 },
+      { "instruction": "Rub the butter into the flour until it looks like breadcrumbs, then stir in the oats and demerara." },
+      { "instruction": "Spread the apples in a dish, scatter the crumble over, and bake until bubbling at the edges.", "timerSeconds": 2400 },
+      { "instruction": "Rest before serving with custard or ice cream.", "timerSeconds": 600 }
+    ]
+  }
+]
